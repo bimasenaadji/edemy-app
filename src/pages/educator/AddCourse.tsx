@@ -120,7 +120,7 @@ const AddCourse = () => {
 
         // Jika ini chapternya, filter chapter contentnya
         const newChapterContent = chapter.chapterContent.filter(
-          (lecture, index) => index !== lectureIndex
+          (_, index) => index !== lectureIndex
         );
 
         return {
