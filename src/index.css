@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@theme {
+  /* A. WARNA (COLORS) */
+  --color-surface: #2563eb;
+  --color-desc: #565656;
+  --color-heading: #0e0e0e;
+  --color-placeholder: #8a8c8f;
+  --color-input: #6b728033;
+  --color-card: #f3f3f3;
+  --color-link: #1c70ff;
+  --color-course-title: #333333;
+  --color-course: ##232323;
+  --color-course-desc: #656565;
+  --color-danger: ##ff4b4b;
+  --color-card-b: #e1e1e1;
+  --color-sidebar: #252525;
+  --color-cta: #1f2937;
+  --color-footer: #111820;
+  --color-footer-text: #ffffffcc;
+
+  /* B. TYPOGRAPHY */
+  /* Font Family */
+  --font-primary: "Outfit", sans-serif;
+
+  /* Font Size */
+  --text-home-heading-small: 28px;
+  --text-home-heading-large: 46px;
+  --text-default: 15px;
+  --text-course-detail-large: 44px;
+  --text-course-detail-small: 36px;
+
+  /* Box Shadow */
+  --shadow-card: 0px 4px 15px 2px rgba(0, 0, 0, 0.1);
+}
